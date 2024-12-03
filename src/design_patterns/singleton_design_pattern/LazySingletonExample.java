@@ -1,4 +1,4 @@
-package com.edabit_solutions.singleton_design_pattern;
+package design_patterns.singleton_design_pattern;
 
 public class LazySingletonExample {
     //Class has only one instance

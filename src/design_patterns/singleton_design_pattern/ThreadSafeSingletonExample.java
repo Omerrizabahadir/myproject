@@ -1,4 +1,4 @@
-package com.edabit_solutions.singleton_design_pattern;
+package design_patterns.singleton_design_pattern;
 
 public class ThreadSafeSingletonExample {
     private static ThreadSafeSingletonExample instance;
