@@ -8,7 +8,7 @@ public class ReversedArrayWithCollections {
     public static void main(String[] args) {
         Integer[] numbers = {1, 2, 3, 4, 5};
 
-        //önce listeye çevirme
+     //önce listeye çevirme
         List<Integer> listNumbers = Arrays.asList(numbers);
 
         //collections ile terse çevirme
