@@ -1,24 +1,18 @@
 package arrays;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class ReversedArray2 {
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5};
+        Integer[] numbers = {1, 2, 3, 4, 5};
 
-        int[] reversed = new int[numbers.length];
+        List<Integer> list = Arrays.asList(numbers);
+        Collections.reverse(list);
 
-        //Diziyi ters çevirme
-        //DİKKAT!!! numbers.length - 1 -> başlangıçta dizinin son elemanı demek.yani 5. 5-1 demek değil
-        for (int i = 0; i < numbers.length; i++) {
-            reversed[i] = numbers[numbers.length - 1 - i];  //yani numbers.length - 1 - i ->(numbers.length - 1)-i burada dizinin son elemanı neyse ondan -i yapacak
+        for (int i = 0; i < numbers.length;i++) {
+            System.out.println(numbers[i]);
         }
-        //terse çevrilmiş yeni diziyi yazdırma
-        for (int num : reversed){
-            System.out.println(num);
-        }
-        /*veya for dönfüsü ile yazdırma
-         for (int i=0;i< reversed.length;i++){
-           System.out.println(reversed[i]);
-       }
-         */
     }
 }
