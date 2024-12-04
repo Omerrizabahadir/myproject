@@ -1,18 +1,17 @@
 package arrays;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 public class ReversedArray2 {
     public static void main(String[] args) {
-        Integer[] numbers = {1, 2, 3, 4, 5};
+        int[] numbers = {1, 2, 3, 4, 5};
+        int[] reversed = new int[numbers.length];
 
-        List<Integer> list = Arrays.asList(numbers);
-        Collections.reverse(list);
-
-        for (int i = 0; i < numbers.length;i++) {
-            System.out.println(numbers[i]);
+        for (int i = 0;i< numbers.length;i++){
+            reversed[i] = numbers[(numbers.length-1)-i];
         }
+        for (int num : reversed){
+            System.out.println(num);
+        }
+        
     }
 }
