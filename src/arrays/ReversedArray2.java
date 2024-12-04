@@ -15,5 +15,10 @@ public class ReversedArray2 {
         for (int num : reversed){
             System.out.println(num);
         }
+        /*veya for dönfüsü ile yazdırma
+         for (int i=0;i< reversed.length;i++){
+           System.out.println(reversed[i]);
+       }
+         */
     }
 }
