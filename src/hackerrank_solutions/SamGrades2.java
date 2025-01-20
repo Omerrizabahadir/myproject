@@ -19,7 +19,13 @@ public class SamGrades2 {
     }
 
     public static void main(String[] args) {
-        List<Integer> grades = Arrays.asList(73, 67, 38, 33);
-        System.out.println(grades);
+        List<Integer> grades = Arrays.asList(73, 67, 38, 33, 40, 98, 97);
+        System.out.println("Verilen Liste : " + grades);
+
+        // Notları yuvarla
+        List<Integer> roundedGrades = gradingStudents(grades);
+
+        // Sonuçları yazdır
+        System.out.println("Yuvarlanmış Notlar: " + roundedGrades);
     }
 }
