@@ -16,7 +16,7 @@ public class BetweenTwoSets {
 
         for(int x = start; x <= end; x++){   //'start' ile 'end' arasındaki tüm sayılara bak.
             int finalX = x;
-            boolean isDivideAllAValue = a.stream().allMatch(num -> finalX % num == 0); // x tüm a değerlerini böler mi?
+            boolean isDivideAllAValue = a.stream().allMatch(num -> finalX % num == 0); // x tüm a değerlerini böler mi?.num  a listesindeki her bir elemanı temsil ediyor
             int finalX1 = x;
             boolean isDividedAllBValue = b.stream().allMatch(num -> num % finalX1 == 0);// x tüm b değerlerine bölünür mü?
 
