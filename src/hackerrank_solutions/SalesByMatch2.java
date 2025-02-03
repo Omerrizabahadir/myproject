@@ -13,6 +13,10 @@ public class SalesByMatch2 {
 
         for(int sock : ar){
             sockCount.put(sock, sockCount.getOrDefault(sock,0) + 1);
+            /*
+            sockCount.getOrDefault(sock, 0) → Eğer sock (çorap rengi) HashMap içinde varsa, mevcut değerini döndürür; yoksa varsayılan olarak 0 döndürür.
+            +1 ekleyerek çorap sayısını artırırız.
+             */
         }
         for (int count : sockCount.values()){
            pairs += count / 2;
