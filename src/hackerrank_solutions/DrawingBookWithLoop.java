@@ -2,7 +2,7 @@ package hackerrank_solutions;
 
 import java.util.Scanner;
 
-public class DrawingBook {
+public class DrawingBookWithLoop {
     public static int pageCount(int n, int p){
         int frontPageStarting = 0;
         int backPageStarting = 0;
