@@ -1,4 +1,4 @@
-package design_patterns.factory_design_pattern;
+package design_patterns.factory_design_pattern_for_cars;
 
 //3. Fabrika -> NESNE üreten yer
 public class CarFactory {

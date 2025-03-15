@@ -1,4 +1,4 @@
-package design_patterns.factory_design_pattern;
+package design_patterns.factory_design_pattern_for_cars;
 
 //2.  Araba türü -> car sınıfını implement edecek
 public class SUV implements Car{
