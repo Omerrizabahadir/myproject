@@ -11,6 +11,10 @@ import static java.util.stream.Collectors.toList;
 public class ArraysDS {
     public static List<Integer> reverseArray(List<Integer> a){
 
+        /*
+        Bu yöntem, listeyi yerinde (in-place) ters çevirir,
+        yani orijinal liste değişir.
+         */
         Collections.reverse(a);
         return a;
     }
