@@ -14,6 +14,9 @@ public class ArraysDSReversedArrayWithUsingStack {
 
     public static List<Integer> reverseArray(List<Integer> a) {
 
+        /*
+        (This method does not change the original list, instead it creates a new reversed list.)
+         */
         Stack<Integer> stack = new Stack<>();
 
         // Liste elemanlarını stack'e koy
