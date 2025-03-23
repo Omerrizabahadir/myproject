@@ -1,12 +1,13 @@
 package arrays;
 
-public class ReverseAnArray {
+public class PrintAnArrayReverse {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 4, 5};
 
         System.out.println("Reversed array :");
 
         /*
+        Bu kod, diziyi ters çevirmiyor. tersten yazdırıyor.
         1.)    i = numbers.length - 1 -> dizinin son elemanı yani index[4] ü alıyor(index[4]=5'tir. 5>=0 mı evet 5 i yazacak)
         2.)    i =  numbers.length - 1 -> dizinin son elamanı index[3] yani 4 oldu. 4>=0 mı evet 4 'ü yazar
         3.)
